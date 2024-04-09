@@ -22,7 +22,7 @@ find the `\paper` block (in the middle) and set `two-sided = ##f`.
 I made several editorial decisions to keep the left-hand part in the lower staff, since believe ledger lines are easier to read than staff changes.  I hope you agree.
 
 ## Thanks
-Thanks to the folks at the [LilyPond user's mailing list](mailto://lilypond-user@gnu.org), especially [Jean Abou Samra](https://github.com/jeanas), for all the help getting LilyPond to do what I wanted.
+Thanks to the folks at the [LilyPond user's mailing list](mailto://lilypond-user@gnu.org), especially [Jean Abou Samra](https://github.com/jeanas), for all the help getting LilyPond to do what I wanted, and thanks to [phmcarty](https://github.com/phmccarty) for the proofreading.
 
 ## License
 This work is licensed under the [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) from Creative Commons.  Follow the link for details.  Basically, you can use this work however you want *if* you keep the same license and you attribute the work to me, Knute Snortum (knute (at) snortum (dot) net).
