@@ -210,7 +210,7 @@ rightHandLower = \relative {
   
   \barNumberCheck 33
   c8 cf \acciaccatura { bf8*1/2 cf df } cf2~ cf4 bf8 a4 af8 |
-  af8 bf r s4. s2. |
+  af8 g r s4. s2. |
   % SrcB has an af as the 4th note of the tuplet. This is probably an omission.
   s2. r4 af!8-. \moveTupletNumberB \tuplet 7/6 { 
     af16-.( g-. bf-. a-. af-. g-. f-. 
