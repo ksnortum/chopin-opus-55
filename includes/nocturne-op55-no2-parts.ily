@@ -569,7 +569,7 @@ forceBreaks = {
 nocturneTwoNotes =
 \score {
   \header {
-    title = "Nocturne One"
+    title = "Nocturne Two"
     composer = "Frédéric Chopin"
     opus = "Opus 55, No. 2"
   }
