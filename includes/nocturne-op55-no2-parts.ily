@@ -527,7 +527,7 @@ pedal = {
   s2. s4. s4 s16 s\su |
   s4.\sd s4\su s8\sd s4\su s8\sd s4 s8\su |
   s4.\sd s\su s2.\sd |
-  s8\su s4\sd s4. s4.\su\sd s4 s8\su |
+  s4.\su-\tweak Y-offset -2\sd s s\su\sd s4 s8\su |
   s2.\sd s8 s4\su s4.\sd |
   
   \barNumberCheck 65

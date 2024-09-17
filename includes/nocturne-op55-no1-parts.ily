@@ -57,6 +57,8 @@ slurShapeO = \shape #'(
                         ((0 . -0.5) (0 . 0) (0 . 0) (0 . 0))
                         ) \etc
 
+tieShapeA = \shape #'((0 . 0) (0 . 0.25) (0 . 0.25) (0 . 0)) \etc
+
 moveTextA = \tweak X-offset 4 \etc
 
 %%% Music %%%
@@ -73,7 +75,7 @@ rightHandUpper = \relative {
   c4) f( ef df |
   c8.[ b16 c8. \slashedGrace { ef8*1/8 } df16] c2~ |
   c4) f( ef df |
-  c2 bf4\trill \grace { a16*1/8 bf } c8. df16 |
+  c2 \trillUnderSlur bf4\trill \grace { a16*1/8 bf } c8. df16 |
   af!2 \voiceOne af4\arpeggio g8. f16 |
   \oneVoice \acciaccatura { af,8 } f'2) c'4( c~ |
   
@@ -83,9 +85,9 @@ rightHandUpper = \relative {
   c4) f-\slurShapeB ( ef df |
   c8.[ b16 c8. \slashedGrace { ef8*1/8 } df16] c2~ |
   c4) f( ef df |
-  c2 \grace { a16 bf } bf2*1/2\trill \magnifyMusic #2/3 { \scaleDurations 2/5 {
-    \stemUp a8-. bf-. c-. ef-. df-. \stemNeutral 
-  } } |
+  c2 \grace { a16 bf } \trillUnderSlur bf2*1/2\trill \magnifyMusic #2/3 { 
+    \scaleDurations 2/5 { \stemUp a8-. bf-. c-. ef-. df-. \stemNeutral } 
+  } |
   af!2) \voiceOne af4-\slurShapeA ^( g8. f16 |
   \oneVoice \acciaccatura { af,8 } f'2) af4-\slurShapeC ( af |
   
@@ -256,7 +258,7 @@ rightHandLower = \relative {
   \barNumberCheck 65
   <bf df>1 |
   \voiceOne bf1 |
-  bf1_~ |
+  bf1-\tieShapeA _~ |
   \hideNoteHead bf2 bf |
   s1 * 4 |
   

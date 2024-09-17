@@ -1,3 +1,4 @@
+%...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....
 \version "2.24.0"
 
 %
@@ -38,6 +39,7 @@ tupletOn = {
 underSlur = \tweak avoid-slur #'inside \etc
 noStaffPriority = -\tweak outside-staff-priority ##f \etc
 trillSpannerUnderSlur = \override TrillSpanner.outside-staff-priority = ##f
+trillUnderSlur = \once \override Script.avoid-slur = #'inside
 
 %
 % Markup
